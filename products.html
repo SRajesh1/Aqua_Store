@@ -3,128 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - Aqua Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Products - Pure Water</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header/Navigation (your existing header code) -->
-
-    <!-- Product Page Content -->
-    <section class="product-header">
-        <div class="container">
-            <h1>Our Products</h1>
-            <p>Discover our range of premium water solutions</p>
-        </div>
-    </section>
-
-    <section class="product-categories">
-        <div class="container">
-            <div class="category-filters">
-                <button class="filter-btn active" data-filter="all">All Products</button>
-                <button class="filter-btn" data-filter="bottles">Water Bottles</button>
-                <button class="filter-btn" data-filter="dispensers">Dispensers</button>
-                <button class="filter-btn" data-filter="tanks">Water Tanks</button>
-                <button class="filter-btn" data-filter="accessories">Accessories</button>
+    <!-- Navigation Bar with Modern Simple Logo -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logo-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-primary">Aqua</span>
+                        <span class="logo-secondary">Store</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
             </div>
 
-            <div class="products-grid">
-                <!-- 1L Water Bottle -->
-                <div class="product-card" data-category="bottles">
-                    <div class="product-image">
-                        <img src="images/products/1l-bottle.jpg" alt="1L Water Bottle">
-                        <div class="product-overlay">
-                            <button class="quick-view">Quick View</button>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>1L Water Bottle</h3>
-                        <p class="product-desc">Pure Drinking Water</p>
-                        <div class="product-details">
-                            <span class="price">₹20.00</span>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 500ml Water Bottle -->
-                <div class="product-card" data-category="bottles">
-                    <div class="product-image">
-                        <img src="images/products/500ml-bottle.jpg" alt="500ml Water Bottle">
-                        <div class="product-overlay">
-                            <button class="quick-view">Quick View</button>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>500ml Water Bottle</h3>
-                        <p class="product-desc">Regular Size Water</p>
-                        <div class="product-details">
-                            <span class="price">₹10.00</span>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Water Dispenser -->
-                <div class="product-card" data-category="dispensers">
-                    <div class="product-image">
-                        <img src="images/products/dispenser.jpg" alt="Water Dispenser">
-                        <div class="product-overlay">
-                            <button class="quick-view">Quick View</button>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Hot & Cold Water Dispenser</h3>
-                        <p class="product-desc">Efficient Water Dispenser</p>
-                        <div class="product-details">
-                            <span class="price">₹150.00</span>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 750ml Sports Bottle -->
-                <div class="product-card" data-category="bottles">
-                    <div class="product-image">
-                        <img src="images/products/750ml-sports.jpg" alt="750ml Sports Bottle">
-                        <div class="product-overlay">
-                            <button class="quick-view">Quick View</button>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>750ml Sports Bottle</h3>
-                        <p class="product-desc">Sports Edition Water</p>
-                        <div class="product-details">
-                            <span class="price">₹15.00</span>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 250ml Water Bottle -->
-                <div class="product-card" data-category="bottles">
-                    <div class="product-image">
-                        <img src="images/products/250ml-bottle.jpg" alt="250ml Water Bottle">
-                        <div class="product-overlay">
-                            <button class="quick-view">Quick View</button>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>250ml Water Bottle</h3>
-                        <p class="product-desc">Travel Size Pure Water</p>
-                        <div class="product-details">
-                            <span class="price">₹8.00</span>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Add more product cards here -->
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <!-- Add script at the end of body -->
+
     <script src="script.js"></script>
 </body>
 </html> 

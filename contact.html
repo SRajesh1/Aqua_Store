@@ -3,142 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Aqua Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Pure Water</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
+    <!-- Navigation Bar with Modern Simple Logo -->
+    <nav class="navbar">
+        <div class="nav-container">
             <div class="logo">
-                <h1>Aqua Store</h1>
+                <a href="index.html">
+                    <div class="logo-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-primary">Aqua</span>
+                        <span class="logo-secondary">Store</span>
+                    </div>
+                </a>
             </div>
+            
             <div class="nav-links">
-                <a href="index.html">Home</a>
+                <a href="index.html" class="active">Home</a>
                 <a href="products.html">Products</a>
                 <a href="about.html">About</a>
-                <a href="contact.html" class="active">Contact</a>
-            </div>
-            <div class="cart">
-                <i class="fas fa-shopping-cart"></i>
-                <span>0</span>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Compact Hero Section -->
-    <section class="contact-hero">
-        <div class="contact-hero-content">
-            <h1>Get In Touch</h1>
-            <p>We're here to help and answer any questions you might have</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <div class="contact-container">
-            <!-- Contact Cards -->
-            <div class="contact-cards">
-                <div class="contact-card">
-                    <div class="card-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="card-content">
-                        <h3>Visit Us</h3>
-                        <p>123 Water Street, NY 10001</p>
-                    </div>
-                </div>
-
-                <div class="contact-card">
-                    <div class="card-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="card-content">
-                        <h3>Call Us</h3>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-                </div>
-
-                <div class="contact-card">
-                    <div class="card-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="card-content">
-                        <h3>Email Us</h3>
-                        <p>info@aquastore.com</p>
-                    </div>
-                </div>
+                <a href="contact.html">Contact Us</a>
             </div>
 
-            <!-- Contact Form Section -->
-            <div class="form-container">
-                <div class="form-header">
-                    <h2>Send us a message</h2>
-                    <p>We'll get back to you as soon as possible</p>
-                </div>
-                <form id="contactForm" class="modern-form">
-                    <div class="input-group">
-                        <div class="form-field">
-                            <span class="field-icon">
-                                <i class="fas fa-user"></i>
-                            </span>
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-field">
-                            <span class="field-icon">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                    </div>
-
-                    <div class="form-field">
-                        <span class="field-icon">
-                            <i class="fas fa-tag"></i>
-                        </span>
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-
-                    <div class="form-field message-field">
-                        <span class="field-icon">
-                            <i class="fas fa-comment-alt"></i>
-                        </span>
-                        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">
-                        Send Message
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </form>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Follow Us</h3>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Aqua Store. All rights reserved.</p>
-        </div>
-    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html> 
