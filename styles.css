@@ -1169,6 +1169,16 @@ body {
     margin: 0 auto;
 }
 
+/* Responsive Design for Why Choose Us Section */
+@media (max-width: 576px) {
+    .benefits-grid {
+        grid-template-columns: 1fr; /* Stack cards vertically on smaller screens */
+    }
+    .benefit-card {
+        text-align: center; /* Center align content within cards on smaller screens if needed */
+    }
+}
+
 .benefit-card {
     background: white;
     border-radius: 15px;
